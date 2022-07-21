@@ -1,0 +1,320 @@
+#links{
+    width: 100%;
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    justify-content: space-between;
+  
+    align-items: center;
+}
+#links > div {
+    display: flex;
+    list-style: none;
+  }
+  #links a {
+    text-decoration: none;
+   color: black;
+    font-size: 20px;
+    }
+  #links img{
+    height: 70px;
+}
+#left{
+   
+    font-size: 22px;
+    display: flex;
+    gap: 20px;
+    padding-left: 30px;
+
+}
+#right{
+    
+    font-size: 22px;
+    display: flex;
+    gap: 20px;
+    padding-right: 30px;
+}
+
+#heading{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    height: 70px;
+    display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+
+}
+#heading a {
+    text-decoration: none;
+   color: rgb(98, 98, 98);
+    font-size: 23px;
+    }
+   
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    text-align: center;   
+}
+#digit{
+    width: 92%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    
+    margin: auto;
+    
+}
+#digit>div{
+    width: 33%;
+    
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#digit>div>h1{
+    color: rgb(3, 108, 108);
+}
+.t{
+    
+    height: 500px;
+    position: absolute;
+    left: 52%;
+    margin-left: 3px;
+    top: 500px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#feature{
+    width: 92%;
+    display: flex;
+    
+    margin: auto;
+    height: 700px;
+}
+
+.fea{
+    width: 50%;
+   
+    
+    }
+    .fea h3 {
+        color: black;
+    }
+    h2{
+        color: black; 
+    }
+.fea img{
+    width: 90%;
+    height: 400px;
+}
+.right{
+   margin-left: 100px;
+}
+
+.fearight{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,150px);
+   margin: auto;
+   gap: 0px;
+   margin-left: 100px;
+   
+  
+   
+}
+.fearight>div{
+    border: 1px solid rgb(240, 239, 239) 
+}
+.fearight img{
+    width: 80%;
+    height: 80%;
+    padding-top: 20px;
+   
+}
+.zinequist{
+   
+    width: 92%;
+    display: flex;
+    margin: auto;
+    height: 400px;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+
+}
+.zinequist>div{
+   
+    width: 45%;
+}
+.zinequist img{
+width: 100%;
+}
+.zinequistleft{
+    text-align: left;
+    padding-bottom: 10px;
+    line-height: 1.9;
+}
+.l{
+    
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: 3px;
+    top: 1200px;
+    
+}
+#slide{
+    width:100%  ;
+    position:relative;
+    display: flex;
+    
+    gap: 20px;
+}
+#slide div{
+    width: 100%;
+    
+}
+#slide>div img{
+    width: 100%;
+    margin-top: 50px;
+    height: auto;
+}
+button{
+    position:absolute;
+    border: 1px solid white;
+    
+}
+button:nth-child(2){
+    right:220px;
+}
+button:nth-child(3){
+    right:140px;
+}
+#slide h2{
+    text-align: left;
+    color: green;
+    width:100%
+}
+#slide p{
+    text-align: left;
+    width:100%;
+    line-height: 1.9;
+}
+.zinequist4{
+    
+    width: 92%;
+    display: flex;
+    margin: auto;
+    height: 400px;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+
+}
+.zinequist4 img{
+    width: 100%;
+    height: 100%;
+}
+.zinequist4>div{
+   
+    width: 45%;
+}
+#creater{
+    width: 100%;
+   
+    margin: auto;
+}
+#creater h3{
+    padding-left: 160px;
+}
+#creater>div{
+    width: 80%;
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin: auto;
+    gap: 30px;
+}
+#creater>div>div{
+    width: 100%;
+    
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+    gap:40px
+}
+#creater>div>div>div{
+   
+    margin: 10px 0px 10px 10px ;
+    
+    
+}
+#creater>div>div :nth-child(1){
+    width: 100%;
+    
+    
+}
+#creater>div>div :nth-child(2){
+    width: 100%;
+}
+#creatersucess{
+    padding-left: 70px;
+}
+#sucess{
+    
+    width: 92%;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+#sucess div{
+    
+    width: 100%;
+}
+#sucess div img{
+    width: 100%;
+    height:55%
+}
+#sucess p{
+    line-height: 1.1;
+}
+.gridcontainer{
+    width: 100%;
+    
+    height: 400px;
+    margin: auto;
+}
+.gridcontainer1{
+    width: 60%;
+    
+    height: 75%;
+   margin: auto;
+   margin-top: 30px;
+   display: flex;
+    
+    
+}
+.gridcontainer1 div{
+    
+    width: 100%;
+}
+.gridcontainer1 p{
+    text-align: left;
+    line-height: .5;
+    
+}
+.gridcontainer2{
+    width: 90%;
+   
+    margin: auto;
+    height: 70px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+
+
+
