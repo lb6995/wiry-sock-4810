@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(235, 230, 230);
+}
+#links{
+    width: 100%;
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+  
+    align-items: center;
+}
+#links > div {
+    display: flex;
+    list-style: none;
+  }
+  #links a {
+    text-decoration: none;
+   color: black;
+    font-size: 20px;
+    }
+  #links img{
+    height: 70px;
+}
+#left{
+   
+    font-size: 22px;
+    display: flex;
+    gap: 20px;
+    padding-left: 30px;
+
+}
+#right{
+    
+    font-size: 22px;
+    display: flex;
+    gap: 20px;
+    padding-right: 30px;
+}
+#container{
+    width: 25%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin: auto;
+    background-color: white;
+    margin-top: 70px;
+    
+}
+#container>h1{
+    padding-left: 20px;
+    
+   }
+   #container>form{
+    width: 100%;
+   
+    background-color: white;
+    
+    display: grid;
+    gap: 20px;
+}
+#forget{
+    padding-left: 20px;
+    color:blue;
+}
+#container>form>input{
+    margin: 0 20px 0 20px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
+}
+form :nth-child(1){
+   margin-left: 20px;
+}
+form>input+input+div+input{
+    background-color: green;
+    color: white;
+}
+
+
+
+p{
+    padding-left: 20px;
+    
+}
+#signuplink{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    height: 40px;
+    margin: auto;
+    padding-top: 16px;
+    margin-bottom: 10px;
+    
+}
