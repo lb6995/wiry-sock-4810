@@ -1,0 +1,316 @@
+#links{
+    width: 100%;
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    justify-content: space-between;
+  
+    align-items: center;
+}
+#links > div {
+    display: flex;
+    list-style: none;
+  }
+  #links a {
+    text-decoration: none;
+   color: black;
+    font-size: 20px;
+    }
+  #links img{
+    height: 70px;
+}
+#left{
+   
+    font-size: 22px;
+    display: flex;
+    gap: 20px;
+    padding-left: 30px;
+
+}
+#right{
+    
+    font-size: 22px;
+    display: flex;
+    gap: 20px;
+    padding-right: 30px;
+}
+#heading{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    height: 70px;
+    display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+
+}
+#heading a {
+    text-decoration: none;
+   color: rgb(98, 98, 98);
+    font-size: 23px;
+    }
+    .arts h1{
+        margin-left: 100px;
+    }
+    .arts>h1+ p{
+        margin-left: 100px; 
+        
+    }
+    .arts>div{
+        display: flex;
+        margin-left: 100px; 
+        gap: 30px;
+    }
+    
+    .feature>div{
+        width:89%;
+        
+        display: flex;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .feature>div>div{
+        
+        width: 50%;
+    }
+    .feature>div>div img{
+        width: 100%;
+    }
+    .RECOMMENDED{
+        margin-left:60px ;
+    }
+    .RECOMMENDED>div{
+        
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        
+    }
+    
+    .RECOMMENDED h5{
+        color: green
+    }
+    .subscribe{
+        
+        height: 230px;
+    }
+    .subscribe>div{
+        
+        margin: auto;
+        text-align: center;
+        margin-top: 80px;
+    }
+    #email{
+        width:25%;
+        height: 30px;
+        margin-right: 15px;
+    }
+    button{
+        width: 7%;
+        height: 38px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+
+    }
+    .explore{
+        
+       height: 600px;
+    }
+    
+    .explore h1{
+        margin-left: 100px;
+    }
+    .explore>div{
+       
+        width:89%;
+        display: flex;
+        margin: auto;
+        gap: 10px;
+        
+        background-color: rgb(254, 220, 226);
+    }
+    .explore>div>div{
+        height: 100%;
+        
+    }
+    .explore>div>div>button{
+        width: 150px;
+        /* height: 100px; */
+        background-color: rgb(185, 231, 250);
+        margin-left: 40px;
+        margin-top: 20px;
+    
+       border: 1px solid rgb(185, 231, 250);;
+        color: black;
+
+    }
+    .explore>div>div>button:hover{
+        color: white;
+        background-color: blue;
+    }
+    .explore>div>div img{
+        width: 100%;
+    }
+    .zinequist{
+   
+        width: 89%;
+        display: flex;
+        margin: auto;
+        height: 400px;
+        justify-content: space-between;
+        margin-top: 50px;
+        
+    
+    }
+    .zinequist>div{
+       
+        width: 45%;
+    }
+    .zinequist img{
+    width: 100%;
+    }
+    .zinequistleft{
+        text-align: left;
+        padding-bottom: 10px;
+        line-height: 1.9;
+    }
+    .FORCREATORS{
+        height: 500px;
+        
+    }
+    .FORCREATORS h3{
+        margin-left: 100px;
+    }
+    .FORCREATORS>div{
+        width: 89%;
+       height: 400px;
+        display: flex;
+        margin: auto;
+       
+        gap: 40px;
+
+    }
+    .FORCREATORS>div>div{
+        width: 50%;
+    }
+    .FORCREATORS>div>div>img{
+        width: 100%;
+        height: 60%;
+    }
+    .fresh{
+        height: 500px;
+        
+    }
+    .fresh h3{
+        margin-left: 100px;
+    }
+    .fresh>div{
+       
+        width:89%;
+        display: flex;
+        margin: auto;
+        gap: 10px;
+    }
+    .fresh>div>div img{
+        width: 100%;
+    }
+    .MORE{
+        
+        height: 800px;
+
+    }
+    .MORE>h3{
+        padding-left: 100px;
+    }
+    .MORE>div{
+        width: 89%;
+        height: 700px;
+        
+        display: flex;
+        margin: auto;
+        gap: 30px;
+    }
+    .MORE>div>div{
+        width: 100%;
+        
+    }
+    .MORE>div>div>img{
+        width: 100%;
+        height: 60%;
+    }
+    #creater{
+        width: 100%;
+       
+        margin: auto;
+    }
+    #creater h3{
+        padding-left: 100px;
+    }
+    #creater>div{
+        width: 89%;
+        
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        margin: auto;
+        gap: 30px;
+    }
+    
+    #creater>div>div{
+        width: 100%;
+        
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: auto;
+        gap:40px;
+        
+    }
+    #creater>div>div>div{
+       
+        margin: 10px 0px 10px 10px ;
+        
+        
+    }
+    #creater>div>div :nth-child(1){
+        width: 100%;
+        
+        
+    }
+    #creater>div>div :nth-child(2){
+        width: 100%;
+    }
+    .gridcontainer{
+        width: 100%;
+        
+        height: 400px;
+        margin: auto;
+    }
+    .gridcontainer1{
+        width: 60%;
+        
+        height: 75%;
+       margin: auto;
+       margin-top: 30px;
+       display: flex;
+        
+        
+    }
+    .gridcontainer1 div{
+        
+        width: 100%;
+    }
+    .gridcontainer1 p{
+        text-align: left;
+        line-height: .5;
+        
+    }
+    .gridcontainer2{
+        width: 90%;
+       
+        margin: auto;
+        height: 70px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    
+    }
