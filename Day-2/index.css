@@ -297,7 +297,31 @@
        
         margin: auto;
         height: 70px;
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
+        display: flex;
+        grid-template-columns: repeat(2,1fr);
+       
+        margin: auto;
+        
+        
     
     }
+    .gridcontainer2>div{
+        
+        width:100%;
+       margin-left: 40px;
+        display: grid;
+        
+        
+    }
+    .filter{
+        border: 1px solid white;
+        height: 40px;
+        text-align: center;
+        margin-left: 20px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+        
+    }
+    a{
+        text-decoration: none;
+    }
+    
